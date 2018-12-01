@@ -1,0 +1,51 @@
+.cont{
+    height: .8rem;
+    margin-top: .4rem;
+    
+    line-height: .8rem;
+    background: #ffffff;
+    padding: 0 4%;
+}
+.cont span:nth-child(1){
+    font-size: 0.32rem;
+    display: inline-block;
+    float: left;
+    width: 30%;
+    overflow: hidden;
+    
+}
+/* .cont span:nth-child(2){
+    font-size: 0.22rem;
+    display: inline-block;
+    float: left;
+    width: 40%;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    color: #ddd;
+} */
+.cont span:nth-child(2){
+    display: inline-block;
+    font-size: 0.32rem;
+    width: 5%;
+    float: right;
+    color: #00a3f0;
+}
+.xitongcont{
+    padding:0 0.4rem;
+
+}
+.xitongcont h3{
+    font-size: .38rem;
+    text-align: center;
+    margin-top: .2rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+}
+.xitongcont p{
+    font-size: .32rem;
+    text-indent: .2rem;
+    width: 100%;
+    
+    word-break: break-all; word-wrap:break-word;
+}

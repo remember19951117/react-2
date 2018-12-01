@@ -1,0 +1,85 @@
+.main{
+    min-height: 100vh;
+    background: #f2f2f2;
+}
+.cartlists li{
+    list-style: none;
+    width: 96%;
+    margin-left: 2%;
+    
+    height: 2.3rem;
+    margin-top: .4rem;
+}
+.goodsimg{
+    width:1.97rem;
+    height: 1.97rem;
+    float: left;
+    position: relative
+}
+.goodsimg img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width:1.97rem;
+    height: 1.97rem;
+    margin-top: .2rem;
+}
+.goodsinfo{
+    float: left;
+    width: 2.68rem;
+    height: 2.3rem;
+    line-height: .5rem;
+    font-size: .28rem;
+}
+.goodsinfo p:nth-child(1) {
+    margin-top: 0.12rem;
+}
+.jia{
+     float: left;
+     width: 1.6rem;
+     height: 2.3rem;
+    
+    
+}
+.suerorder{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    font-size: .28rem;
+    height: 0.94rem;
+    line-height: 0.94rem;
+}
+.suerorder div:nth-child(1){
+    width: 50%;
+    float: left;
+    text-align: center
+   
+}
+.suerorder div:nth-child(2){
+    width: 50%;
+    float: left;
+   text-align: center;
+   background: #00a3f0;
+   color: #FFFFFF;
+}
+
+
+.NumChgBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1.5rem;
+    height: 100%;
+    
+}
+.NumChgBox>span{
+    width: 0.5rem;
+    height: 0.4rem;
+    text-align: center;
+}
+.NumChgBox>span:nth-of-type(odd){
+    background: #eeeeee;
+    border-radius: .08rem;
+}

@@ -1,0 +1,60 @@
+.title{
+    text-align: center;
+    font-size: .32rem;
+    height: .58rem;
+    line-height: .58rem;
+    margin-top: .5rem;
+}
+.titleipt{
+    height: .58rem;
+    line-height: .58rem;
+   
+}
+.titleipt input{
+    width: 80%;
+    height: .58rem;
+    line-height: .58rem;
+    margin-left: 10%;
+    border: 0 none;
+    border: 1px solid #585858;
+    border-radius: 5px;
+    font-size: .32rem;
+    padding-left: .2rem;
+}
+.titleipt2{
+    height: 2.8rem;
+    
+   
+}
+.titleipt2 textarea{
+    width: 80%;
+   padding-bottom: 3rem;
+   padding-top: 0.3rem;
+    margin-left: 10%;
+    border: 0 none;
+    border: 1px solid #585858;
+    border-radius: 5px;
+    font-size: .32rem;
+    word-wrap: break-word; 
+    word-break: normal; 
+    padding-left: .2rem;
+    display: block; 
+
+}
+.BTN{
+   
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 2rem;
+    bottom: 2rem;;
+    background: #01a1f9;
+    color: #ffffff;
+    border: 0 none;
+    text-align: center;
+    height: .88rem;
+    line-height: .88rem;
+    font-size: .32rem;
+    border-radius: 5px;
+
+
+}

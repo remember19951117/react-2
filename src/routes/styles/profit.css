@@ -1,0 +1,207 @@
+.main{
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 .4rem;
+    box-sizing: border-box;
+    background: #FDFDFD;
+    padding-bottom: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f2f2f2;
+}
+.KRTitle{
+    height: 0.7rem;
+    font-size: .32rem;
+    line-height:0.7rem; 
+}
+.KRcont{
+    height: 4rem;
+    width: 100%;
+    border: 1px solid #a7a8aa;
+    border-radius: .2rem;
+    background: #FFFFFF;
+    padding: .32rem;
+}
+.KRcont2{
+    height: 5.26rem;
+    width: 100%;
+    border: 1px solid #a7a8aa;
+    border-radius: .2rem;
+    background: #FFFFFF;
+    padding: .32rem;
+}
+.KRlists{
+    height: 2.71rem;
+   
+    list-style: none;
+}
+.KRlists2{
+    height: 3.54rem;
+    list-style: none;
+}
+.KRlists li p{
+    height: .44rem;
+    color: #2e2e2e;
+    font-size: .28rem;
+    line-height: .44rem;
+}
+.KRlists2 li p{
+    height: .44rem;
+    color: #2e2e2e;
+    font-size: .28rem;
+    line-height: .44rem;
+}
+.KRlists li input{
+    width: 5.04rem;
+    height: 0.54rem;
+    padding: 0 0.24rem;
+    border: 0;
+    border: 1px solid #a7a8aa;
+    font-size: 0.28rem;
+}
+.KRlists2 li input{
+    width: 5.04rem;
+    height: 0.54rem;
+    padding: 0 0.24rem;
+    border: 0;
+    border: 1px solid #a7a8aa;
+    font-size: 0.28rem;
+}
+.KRBottom button{
+    border: 0 none;
+    margin: 0 auto;
+    width: 5.2rem;
+    height: 0.86rem;
+    background: #00a3f0;
+    color: #fff;
+    font-size: .32rem;
+    border-radius: 0.1rem;
+}
+.buyTitle{
+    height: 0.81rem;
+    line-height: 0.81rem;
+
+}
+.buyTitle span{
+    float: left;
+    font-size: .28rem;
+}
+.buyTitle .buySearch{
+    float: right;
+    width: 3.71rem;
+    height: 0.6rem;
+    margin-top: .16rem;
+    border: 1px solid #a7a8aa;
+    border-radius: .1rem;
+    overflow: hidden;
+}
+.buySearch input{
+    float: left;
+    width: 80%;
+    height: 100%;
+    border: 0;
+    background: #f2f2f2;
+    font-size: 0.28rem;
+    padding: 0 0.2rem;
+}
+.buySearchIcon{
+    float: right;
+    width: 20%;
+    margin-top: .12rem;
+    color: #a7a8aa;
+}
+.buyLists{
+    width: 100%;
+    min-height: 3.66rem;
+    border-radius: .2rem;
+    border: 1px solid #a7a8aa;
+    background: #fff;
+    overflow: hidden;
+    margin-top: .2rem;
+    padding-bottom: 0.3rem;
+}
+.buyListsTitle{
+    width: 100%;
+    height: .63rem;
+    font-size: .36rem;
+    color: #fff;
+    line-height: .63rem;
+    background: #00a3f0;
+    padding-left: .32rem;
+}
+.buyListsCont{
+    padding: .2rem 0.32rem;
+
+}
+.buyListsCont i{
+    display: inline-block;
+    font-style: normal;
+    width: 1.8rem;
+    text-align: left;
+}
+.buyListsCont p{
+    height: .5rem;
+    line-height: .5rem;
+    font-size: .28rem;
+}
+.buyListsBtn{
+    padding:0 0.32rem;
+    height: .75rem;
+   
+}
+.buyListsBtn button{
+    width: 2.34rem;
+    height: .75rem;
+    color: #fff;
+    background: #00a3f0;
+    text-align: center;
+    line-height: .75rem;
+    font-size: .28rem;
+    border-radius: 0.1rem;
+}
+.buyListsBtn button:nth-child(1){
+    float: left;
+}
+.buyListsBtn button:nth-child(2){
+    float: right;
+}
+.buybox{
+    min-height: .5rem;
+    margin-bottom: 1.2rem;
+}
+.buyModleCont p{
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: .28rem;
+    overflow: hidden;
+}
+.buyModleCont p span:nth-child(1){
+    float: left;
+}
+.buyModleCont p span:nth-child(2){
+    float: right;
+}
+.buyModleCont2 input{
+    width: 80%;
+    height: .54rem;
+    border: 0;
+    border:1px solid #a7a8aa;
+    border-radius: .1rem;
+    margin-top: 1rem;
+    padding: 0 .32rem;
+    font-size: .32rem;
+}
+.saleinfo p{
+    line-height: 0.4rem;
+    font-size:0.28rem;
+}
+.saleinfo p i{
+    display: inline-block;
+    width: 1.8rem;
+    text-align: left;
+    font-style: normal;
+}
+.pingzheng img{
+    height: 1.6rem;
+}

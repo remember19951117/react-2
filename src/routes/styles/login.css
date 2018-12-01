@@ -1,0 +1,211 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background: url(../../assets/images/loginBG.png) no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    padding: 0 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Pswmain{
+	width: 100vw;
+    height: 93vh;
+    box-sizing: border-box;
+    background: url(../../assets/images/loginBG.png) no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    padding: 0 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    width: 1.73rem;
+    margin-top: 1.77rem;
+    margin-bottom: 0.4rem;
+}
+.Pswlogo {
+width: 1.73rem;
+  margin-top: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+.name{
+    
+    color: #000000;
+    font-size: .36rem;
+    font-weight: 900;
+    margin-top: .1rem;
+    letter-spacing: 0.05rem;
+}
+.englishName{
+    color: #000000;
+    font-size: .2rem;
+    font-weight: lighter;
+    margin-bottom: 0.7rem;
+}
+
+
+.inputList{
+    width: 100%;
+    height: 2.54rem;
+    
+
+}
+.codeSend{
+	width: 100%;
+	height: 100%;
+	background: #00a3f0;
+	border-radius: 0.1rem;
+	font-size: 0.24rem;
+	border: 0;
+	color: #fff;
+}
+/*.infoList{
+    width: 100%;
+    font-size: .24rem;
+    color: #FFFFFF;
+    margin: .2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.SureBtn{
+    width: 100%;
+    height: 1rem;
+    background: #e8a82d;
+    line-height: 1rem;
+    font-size: .36rem;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: .15rem;
+}
+.InputItem{
+    background: peru
+}
+
+
+
+.textBox{
+    width: 100%;
+    font-size: .26rem;
+    padding: .5rem .4rem;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.3);
+    text-indent: 2em;
+    margin-bottom: .70rem;
+}*/
+.inputList ul li{
+	margin-bottom: 0.64rem;
+	list-style: none;
+	overflow: auto;
+}
+.iconWrap{
+	width: 10%;
+	height: 0.42rem;
+	float: left;
+}
+.inputwrap{
+	float: left;
+	border: 0 none;
+	width: 85%;
+	margin-left: 2%;
+	height: 0.56rem;
+	border-bottom: .5px solid #585858;
+	background: rgba(0, 0, 0, 0);
+	font-size: .30rem;
+	color: #919191;
+}
+
+.inputwrap2{
+	float: left;
+	border: 0 none;
+	width: 50%;
+	margin-left: 2%;
+	height: 0.56rem;
+	font-size: .30rem;
+	border-bottom: .5px solid #585858;
+	background: rgba(0, 0, 0, 0);
+	color: #919191;
+}
+.inputwrap input{
+	border:0 none;
+	background: rgba(0, 0, 0, 0);
+}
+.inputwrap2 input{
+	border:0 none;
+	background: rgba(0, 0, 0, 0);
+}
+.codewrap{
+	float: left;
+	width: 32%;
+	margin-left: 3%;
+	height: 0.56rem;
+	
+}
+.codewrap img{
+	width: 100%;
+	height: 100%;
+}
+
+.forgetPsw{
+	overflow: hidden;
+	font-size: 0.32rem;
+	color: #919191;
+}
+.forgetPsw a{
+	float: left;
+	color:#00a3f0;
+}
+.forgetPsw span{
+	float: right;
+}
+.SureBtn{
+	width: 100%;
+	height: 1rem;
+	background: #00a3f0;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 1rem;
+	font-size: 0.32rem;
+	margin-top: 0.98rem;
+	border-radius: 0.08rem;
+}
+.SurePswBtn{
+	width: 100%;
+	height: 1rem;
+	background: #00a3f0;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 1rem;
+	font-size: 0.32rem;
+	margin-top: 1.1rem;
+	border-radius: 0.08rem;
+}
+.headimgwrap{
+	position: relative;
+	margin: 50px auto;
+	width: 3rem;
+	height: 3rem;
+	
+	border-radius: 50%;
+	
+}
+.headimgwrap .headimgcont{
+	border-radius: 50%;
+	width: 3rem;
+	height: 3rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.headimgjia{
+	
+	border-radius: 50%;
+}
+

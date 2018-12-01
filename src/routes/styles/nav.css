@@ -1,0 +1,38 @@
+.nav{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    
+    height: 1.2rem;
+    width: 100%;
+    
+   
+}
+
+.navlists{
+    list-style: none;
+    height: 1.2rem;
+    padding: 0 0.37rem;
+    background: #FFFFFF;
+}
+.navlists li{
+    width: 20%;
+    float: left;
+}
+.navlists li p{
+    line-height: 0.6rem;
+    text-align: center;
+}
+.navlists li p:nth-child(1){
+    line-height: 0.6rem;
+    font-size: 0.34rem;
+    
+}
+.navlists li p:nth-child(2){
+    line-height: 0.6rem;
+    font-size: 0.24rem;
+}
+.navlists .active{
+    background: #00a3f0;
+    color: #FFFFFF!important;
+}

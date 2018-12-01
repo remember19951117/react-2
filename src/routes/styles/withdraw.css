@@ -1,0 +1,196 @@
+.main{
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 .4rem;
+    box-sizing: border-box;
+    background: #FDFDFD;
+    padding-bottom: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+/* B */
+.Plate{
+    width: 100%;
+    border-radius: .15rem;
+    background: #FFFFFF;
+    margin-bottom: .2rem;
+    box-shadow: 0 0 .05rem .02rem #e4eff4;
+}
+
+.PlateBodyB{
+    width: 100%;
+    padding: 0 .36rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-size: .18rem;
+    justify-content: center;
+    align-items: center;
+}
+.PlateBodyBImg{
+    width: 100%;
+    height: 2rem;
+    background: url(../../assets/images/banner02.png) no-repeat;
+    background-size: 100% 100%;
+    border-radius: .25rem;
+    box-shadow:  .02rem .05rem .05rem .05rem #d6c7b5;
+    margin-top: .45rem;
+    color: #d0a745;
+    font-size: .2rem;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.PlateBodyBSum{
+    font-size: .5rem;
+    font-weight: bold;
+    margin-top: .2rem;
+}
+.PlateBodyBList{
+    width: 100%;
+    font-size: .26rem !important;
+    margin: .40rem 0;
+}
+.ListItem{
+    padding: .28rem 0;
+    position: relative;
+}
+.ListItem::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #f5f5f9;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.PlateBodyBBtnDiv{
+    height: .8rem;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: .36rem;
+}
+.PlateBodyBBtn{
+    display: block;
+    height: 100%;
+    width: 3rem;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    background: #34baff;
+    text-align: center;
+    line-height: .8rem;
+    font-size: .31rem;
+    color: #FFFFFF;
+}
+
+
+.TiWay{
+    width: 100%;
+    height: .87rem;
+    display: flex;
+    justify-content: space-between;
+}
+.TiWay>div{
+    flex-basis: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.WayImg{
+    height: .6rem;
+    margin-left: .2rem;
+}
+
+
+
+.PlateTitle{
+    font-size: .18rem;
+    padding: .27rem 0 .15rem .4rem;
+    color: #999999;
+    position: relative;
+}
+.PlateTitleImg{
+    height: .26rem;
+}
+/* .PlateTitle:after{
+    content: "";
+    width: 100%;
+    height:.02rem;
+    background: #f5f5f9;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+} */
+
+
+
+/*DDDD*/
+
+.PlateBodyD{
+    width: 100%;
+    padding:.2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-size: .26rem;
+    color: #333333;
+    justify-content: center;
+    align-items: center;
+}
+.DItem{
+    height: 2.5rem;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: .05rem;
+    padding: .4rem .2rem;
+    box-shadow: 0 0 .05rem .02rem #e4eff4;
+    margin-bottom: .1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.DItem>div{
+    height: 100%;
+    display: flex;
+    font-weight: lighter;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.DInfoName{
+    display: inline-block;
+    width: 4em;
+    margin-right: .3rem;
+}
+.DItemRightBtn{
+    display: block;
+    height: .5rem;
+    width: 1.30rem;
+    margin: 0 auto;
+    border-radius: 0.25rem;
+    background: #34baff;
+    text-align: center;
+    line-height: .5rem;
+    font-size: .24rem;
+    color: #FFFFFF;
+    margin-top: .3rem;
+}
+.Pag{
+    width: 100%;
+    box-sizing: border-box;
+    padding: .2rem .4rem;
+   
+
+}
+.Pag span{
+    font-size: .26rem !important;
+    line-height: .6rem;
+}
+.Pag a{
+    height: .6rem !important;
+}

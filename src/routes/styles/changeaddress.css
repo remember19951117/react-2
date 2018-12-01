@@ -1,0 +1,46 @@
+.main{
+    min-height: 100vh;
+    padding: 0.4rem 0.4rem;
+}
+.changename{
+    font-size: .26rem;
+    margin-top: 0.24rem;
+}
+.changename2{
+     font-size: .26rem;
+    margin-top: 0.24rem;
+}
+.changename span{
+    display: inline-block;
+    width: 1.32rem;
+    line-height: 0.55rem;
+    
+}
+.changename2 span{
+    display: inline-block;
+    width: 1.32rem;
+    line-height: 0.55rem;
+    
+}
+.changename input{
+    height: 0.55rem;
+    line-height: 0.55rem;
+    border: 0 none;
+    border: 1px solid #a7a8aa;
+    border-radius: 0.1rem;
+    padding: 0 0.3rem;
+    width: 4.38rem;
+}
+.changesure{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    font-size: .28rem;
+    height: 0.91rem;
+    line-height: 0.91rem;
+    background: #00a3f0;
+    border: 0 none;
+    color: #ffffff;
+    
+}

@@ -1,0 +1,56 @@
+.bzTab{
+    width: 100%;
+    margin-top: .4rem;
+    border: 0 none;
+
+}
+.bzTab tr{
+    width: 100%;
+    height:.68rem;
+    line-height: .68rem;
+    border: 0 none;
+}
+.bzTab tr th{
+    border: 0 none;
+    width: 33.3%;
+    text-align: center;
+    font-size: 0.26rem;
+    color: #ffffff;
+    background: #00a3f0;
+}
+.bzTab tr td{
+    width: 33.3%;
+    text-align: center;
+    font-size: 0.26rem;
+    color: #9f9f9f;
+    border-bottom: 1px solid #d0d0d0;
+}
+.bzTab tr td:nth-child(3){
+    color: #55b9f3;
+    
+}
+.caozuo {
+    overflow: hidden;
+    margin-top: .52rem;
+}
+.caozuo span{
+    display: inline-block;
+    float: left;
+    width: 2.24rem;
+    height: 0.78rem;
+    line-height:0.78rem;
+    font-size: .32rem;
+}
+.czinput{
+   float: left; 
+}
+.czinput input{
+    border: 0 none;
+    border: 1px solid #b8b9bb;
+    border-radius: 5px;
+    padding:0 .2rem;
+    height: 0.78rem;
+    line-height:0.78rem;
+    font-size: .32rem;
+    color: #4d4d4d;
+}

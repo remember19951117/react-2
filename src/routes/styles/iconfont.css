@@ -1,0 +1,20 @@
+
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1522656608358'); /* IE9*/
+ 
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:0.1rem;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shouji:before { content: "\e621"; }
+
+.icon-yanzhengma2:before { content: "\e656"; }
+
+.icon-icon-:before { content: "\e6e6"; }
+

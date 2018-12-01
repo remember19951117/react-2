@@ -1,0 +1,19 @@
+.changego{
+    height: 2.4rem;
+    width: 100%;
+    font-size: .28rem;
+    background: #ffffff;
+    margin-top: .3rem;
+}
+.changego div:nth-child(1){
+    float: left;
+    width: 49%;
+    line-height:2.4rem;
+    text-align: center;
+}
+.changego div:nth-child(3){
+    float: left;
+    width: 49%;
+    line-height:2.4rem;
+    text-align: center;
+}

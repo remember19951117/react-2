@@ -1,0 +1,157 @@
+body{
+    min-height: 100vh;
+    background: #f2f2f2;
+}
+.addresstop{
+    height: 1.05rem;
+   background: #FFFFFF;
+    width: 100%;
+    line-height: 1.05rem;
+}
+.addresstop p:nth-child(1){
+    float: left;
+    font-size: .32rem;
+    margin-left: .9rem;
+}
+.addresstop p:nth-child(2){
+    float: right;
+    font-size: .24rem;
+    margin-right: .3rem;
+}
+.addresscenter{
+    height: 0.89rem;
+   background: #FFFFFF;
+    width: 100%;
+}
+.addresscenter div:nth-child(1){
+    width: 0.9rem;
+    height: 0.89rem;
+    text-align: center;
+    font-size: .32rem;
+    float: left;
+}
+.addresscenter div:nth-child(2){
+    width: 5.97rem;
+    text-align: center;
+    font-size: .25rem;
+    float: left;
+}
+.addressbottom{
+    display: block;
+    height: 0.63rem;
+    overflow: hidden;
+    width: 100%;
+    font-size: .26rem;
+   background: #FFFFFF;
+   color: #de2929;
+    float: right;
+    padding-right: 0.32rem;
+}
+.addressbottom span{
+    float: right;
+     line-height: 0.63rem;
+}
+.goodsdetail{
+    height: 2.49rem;
+    background: #FFFFFF;
+    margin-top: 0.63rem;
+}
+.goodsimgwrap{
+    width: 2.14rem;
+    height: 2.34rem;
+    position: relative;
+    float: left;
+}
+.goodsimgwrap img{
+    width: 1.38rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.goodsinfo{
+    width: 4.89rem;
+    height: 2.24rem;
+    float: left;
+    background: #FFFFFF;
+}
+.goodsinfo p:nth-child(1){
+    height: 0.89rem;
+    font-size: .26rem;
+    line-height: 0.5rem;
+    margin-top: .15rem;
+}
+.goodsinfo p:nth-child(2){
+    height: 0.5rem;
+    font-size: .26rem;
+    color: #9f9f9f;
+    margin-top: .15rem;
+}
+.goodsinfo p:nth-child(3){
+     font-size: .28rem;
+    color: #9f9f9f;
+    margin-top: .15rem;
+    color: red;
+}
+.song{
+    height: 0.86rem;
+    background: #FFFFFF;
+    font-size: .28rem;
+    line-height: 0.86rem;
+    width: 100%;
+    
+}
+.song span:nth-child(1){
+    float: left;
+    margin-left: .3rem;
+}
+.song span:nth-child(2){
+    float: right;
+    margin-right: .3rem;
+}
+
+
+.liuyan{
+    height: 0.86rem;
+    font-size: .28rem;
+    line-height: 0.86rem;
+    background: #FFFFFF;
+}
+.liuyan span:nth-child(1){
+    float: left;
+    margin-left: .3rem;
+}
+.liuyan input{
+    width: 5.81rem;
+    height: 0.86rem;
+    line-height: 0.86rem;
+    float: left;
+    
+    background: #FFFFFF;
+    border: 0 none;
+    padding:  0 0.3rem;
+}
+.suerorder{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    font-size: .28rem;
+    height: 0.94rem;
+    line-height: 0.94rem;
+}
+.suerorder div:nth-child(1){
+    width: 50%;
+    float: left;
+    text-align: center
+   
+}
+.suerorder div:nth-child(2){
+    width: 50%;
+    float: left;
+   text-align: center;
+   background: #00a3f0;
+   color: #FFFFFF;
+}
+

@@ -1,0 +1,42 @@
+.main{
+    padding: 0.3rem 0.3rem;
+}
+.addShopinput span{
+    display: inline-block;
+    width: 1.7rem;
+    font-size: .24rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    
+}
+.addShopinput2 span{
+     display: inline-block;
+    width: 1.7rem;
+    font-size: .24rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+}
+.addShopinput input{
+    border: 0 none;
+    border:1px solid #a7a8aa;
+    height: 0.6rem;
+    width: 5rem;
+    line-height: 0.6rem;
+    font-size: .22rem;
+    padding: 0 .2rem;
+    border-radius: .1rem;
+    margin-left: .5rem;
+}
+
+.mssure button{
+    margin-top: 1.2rem;
+    margin-left: 0.6rem;
+    width: 5.21rem;
+    height: 0.86rem;
+    font-size: .26rem;
+    color: #FFF;
+    line-height: 0.86rem;
+    border: 0;
+    background: #00a3f0;
+    border-radius: .1rem;
+}

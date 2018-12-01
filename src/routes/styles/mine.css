@@ -1,0 +1,149 @@
+.main{
+    width: 100%;
+    min-height: 93vh;
+   box-sizing: border-box;
+    background: #f2f2f2;
+    padding-bottom: .5rem;
+    
+}
+.topBG{
+    background: rgb(0, 163, 240);
+    height: 2.8rem;
+    position: fixed;
+    top: 0.7rem;
+    width: 100%;
+}
+.mineInfo{
+    width: 95%;
+    margin-left: 2.5%;
+    height: 2.92rem;
+    background: #FFF;
+    position: fixed;
+    top: 2.28rem;
+    border-radius: .2rem;
+    box-shadow: 4px 4px 4px #ddd;
+    
+}
+.userimg{
+    position: absolute;
+   left: 0;
+   right: 0;
+   margin: auto;
+    top: -0.7rem;
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #FFF;
+    z-index: 100;
+}
+.userimg img{
+    width: 100%;
+    height: 100%;
+}
+.userdetail{
+    height: 1.6rem;
+  
+}
+.userdetailLeft{
+    float: left;
+    width: 2.6rem;
+    height: 1.4rem;
+    text-align: center;
+    font-size: .28rem;
+    line-height: 0.42rem;
+}
+.userdetailRight{
+    float: right;
+    width: 2.6rem;
+    height: 1.4rem;
+    text-align: center;
+    line-height: 0.42rem;
+}
+.userBottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.userBottom div{
+    width: 25%;
+    text-align: center;
+    line-height: 0.7rem;
+}
+.userBottom div p:nth-child(1){
+    font-size: .24rem;
+    
+}
+.userBottom div p:nth-child(2){
+    font-size: .26rem;
+    color: #00a3f0;
+}
+.meauwrap{
+    
+    margin-top: 4.58rem;
+    
+}
+.yue{
+    height: .6rem;
+    line-height: .6rem;
+    font-size: .32rem;
+    text-align: center;
+    border-bottom: 10px solid #FFF;
+}
+.yue span{
+    color:#f63e42;
+}
+.changeNum{
+    height: .66rem;
+    font-size: .32rem;
+}
+.changeInput{
+    margin: 15px 15px 9px 15px;
+    border: 0;
+    border: 1px solid #a7a8aa;
+    color: #a7a8aa;
+    width: 5.06rem;
+    height: .56rem;
+    font-size: .32rem;
+    border-radius: 0.15rem;
+    overflow: hidden;
+}
+.changeInput input{
+    width: 100%;
+    height: 100%;
+    padding:0 0.3rem;
+    border: 0 none;
+}
+.changeSure{
+    width: 2.87rem;
+    height: .72rem;
+    background: #00a3f0;
+    text-align: center;
+    font-size: .32rem;
+    line-height: .72rem;
+    color: #FFF;
+    border: 0;
+    border-radius: .1rem;
+    margin-left: 2.06rem;
+    margin-top: .3rem;
+}
+.changeimg{
+    
+    margin: 15px 15px 9px 15px;
+    border: 0;
+    border: 1px solid #a7a8aa;
+    color: #a7a8aa;
+    width: 4.26rem;
+    height: auto;
+    padding: 0.4rem ;
+    font-size: .32rem;
+    border-radius: 0.15rem;
+    overflow: hidden;
+    background: #ffffff;
+
+}
+.changeimg img{
+    
+    margin-left: 0.4rem;
+}
